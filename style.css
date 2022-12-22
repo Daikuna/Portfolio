@@ -1,17 +1,25 @@
 body{
-  background-color:#b9a082;
+  background-color:#add8e6;
 }
-.hero-image-background{
-  background-color:#222222;
+
+image {
+  height: 700px;
 }
 .recent-project{
-  left: 30px;
-  top: 30px;
   border-radius: 15px;
+  overflow: hidden;
+  width: 95%;
+  border: 10px solid #00008b;
+}
+.recent-project-iframe{
+  width: 102%;
+  overflow:auto;
+  margin-bottom: -8px;
 }
 .hero-text{
   margin-right: 0;
   margin-left: 10px;
   padding-left: 20px;
 }
+
 
